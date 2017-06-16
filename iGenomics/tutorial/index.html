@@ -1,0 +1,125 @@
+---
+layout: default
+title: iGenomics Tutorial
+---
+
+<span class="contentheadbig">iGenomics Tutorial</span><br>
+<a href="http://schatzlab.cshl.edu/people/apalatnick/">Aspyn Palatnick</a>, 
+<a href="http://biology.as.nyu.edu/object/ElodieGhedin.html">Elodie Ghedin</a> &amp;
+<a href="http://schatzlab.cshl.edu">Michael Schatz</a> <br>
+    
+<hr>
+
+iGenomics can be used to identify genetic mutations from raw DNA sequencing data. In this example, we will walk through the steps needed to determine the source of an infection for someone showing flu-like symptoms. Of course, the app cannot directly measure DNA sequences, so you will have to first isolate the DNA (or reverse transcribe the RNA) and sequence it using a DNA sequencer such as from <a href="http://www.illumina.com">Illumina</a>, <a href="http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html">Ion Torrent</a>, <a href="http://www.pacificbiosciences.com/">PacBio</a>, or <a href="https://www.nanoporetech.com/">Oxford Nanopore</a>.
+
+<br><br><br>
+
+
+<p align=center>
+
+<img border=1 src="oxfordnanopore.jpg"> <br><br>
+<b>0. Sequence your sample</b> <br>
+You will need to sequence your sample using one of the available DNA sequencers. Shown here is the MinION sequencer from Oxford Nanopore that connects to a laptop via USB. There are also petabytes of public data available in different archives around the world, including the <a href="http://www.ncbi.nlm.nih.gov/sra">NCBI Sequence Read Archive (SRA)</a>. <br>
+
+<br><br><br>
+
+<img border=1 src="startscreen.png"> <br><br>
+<b>1. Launch the app and click start to begin.</b> <br>
+
+<br><br><br>
+
+<img border=1 src="pickreference.png"><br><br>
+<b>2. Select the reference genome.</b> <br>
+In this example, pick the H1N1 flu reference genome. You can load your own reference genome from Dropbox by selected the left arrow at the top (next to "Search reference files"). For best performance, we recommend genome files less than 1Mbp.<br>
+
+<br><br><br>
+
+<img border=1 src="pickreads.png"><br><br>
+<b>3. Select the DNA sequences (reads) to analyze.</b><br>
+This can be a fastq file from any platform (Illumina, Ion Torrent, PacBio, Oxford Nanopore, etc). Here we will select simulated reads from the H1N1 flu strain. Again click the left arrow at the top to load your own data from Dropbox. For best performance we recommend aligning at most 50Mbp of sequence data. <br><br>
+
+<br><br><br>
+
+<img border=1 src="pickknownmutations.png"><br><br>
+<b>4. Optionally select the known important mutations.</b><br>
+In this example, we will load an important mutations file (mpl) containing the position of several SNPs relevant for flu antiviral treatments. If you do not have a predefined list of mutations, click next without selecting any files. <br><br>
+
+<br><br><br>
+
+
+<img border=1 src="matchparameters.png"><br><br>
+<b>5. Select the parameters for mapping the reads.</b><br> 
+For these data, enable the "Subs/In/Dels" mode, edit distance 5, mutation coverage 5, trimming enabled, trimming value 10, and trimming ref char as "!". This will trim off low quality bases at the ends of the read (below QV 10), and map the reads with up to 5 substitutions, insertions, or deletions. Variants will be called whenever there are 5 or more reads at a given base that disagree with the reference. You may need to adjust these settings for different sequencing instruments and/or data types <br><br>
+
+<br><br><br>
+
+<img border=1 src="analyzingprogress.png"><br><br>
+<b>6. The progress bar will show the reads as they are aligned.</b><br>
+In this example it will take 2 to 3 seconds to align the 5428 flu reads to the reference. <br><br>
+
+<br><br><br>
+
+<img border=1 src="summary.png"><br><br>
+<b>7. The next view is a menu of available analysis modes.</b><br>
+Click the "Show Alignments" button to display the individual read alignments. <br><br>
+
+<br><br><br>
+
+<img border=1 src="alignmentview.png"><br><br>
+<b>8. Alignment view</b><br>
+This will display an IGV-like interface with the individual reads aligned the reference. Use the slider at the bottom or drag your finger to explore. <br><br>
+
+<br><br><br>
+
+<img border=1 src="alignmentoverview.png"><br><br>
+<b>9. Semantic zooming</b><br>
+Pinching the display will zoom out to show the coverage across the genome and highlight any positions with a mutation. Since we have good coverage across the H1N1 flu reference genome, we can be quite sure this person was infected by the flu. <br><br>
+
+<br><br><br>
+
+<img border=1 src="summary.png"><br><br>
+<b>10. Return to the summary screen</b><br>
+Clicking the icon in the top left corner (three little horizontal bars) will return to the summary menu. <br><br>
+
+<br><br><br>
+
+<img border=1 src="alignmentsummary.png"><br><br>
+<b>11. Display Mapping Statistics</b><br>
+Swipe to the right to display the other menus. Here we see a summary of the mapping rate (100% of the reads mapped) and the number of identified mutatations (121 SNPs). Use the mutation coverage control to set the number of conflicting reads needed to identify a mutation. <br><br>
+
+<br><br><br>
+
+<img border=1 src="referencepicker.png"><br><br>
+<b>12. Display the Reference Picker</b><br>
+Swipe again to the right to bring up the "reference picker" which lets you jump to different sequences in the reference genome. In this example, this will jump the display to the different segments of the flu genome. <br><br>
+
+<br><br><br>
+
+<img border=1 src="mutationsummary.png"<br><br><br>
+<b>13. Display Mutation Status</b><br>
+Swipe again to the right to display the status of the important mutations (see above). In this example, the virus has a homozygous and a heterozygous mutation that infers resistance to the adamantanes, but no mutations associated with neuraminidase inhibitors!<br><br>
+
+<br><br><br>
+
+<img border=1 src="emailresults.png"><br><br>
+<b>14. Email results</b><br>
+Click the icon on the top left to bring up a menu to export the results. For example, you can email the antiviral screening results to your primary care provider!<br><br>
+
+<br><br><br>
+
+</p>
+
+
+<br><br>
+
+<span class="contenthead">Links</span><hr>
+
+<table class="intro" width=100%>
+  <tr> <td valign=top width=10>&raquo;</td> <td valign=top><a href="/iGenomics/">Return to main page</a></td></tr>
+  <tr> <td valign=top width=10>&raquo;</td> <td valign=top><a href="/iGenomics/tutorial/">Tutorial</a></td></tr>
+  <tr> <td valign=top width=10>&raquo;</td> <td valign=top><a href="/iGenomics/analysis/">Analysis</a></td> </tr>
+  <tr> <td valign=top width=10>&raquo;</td> <td valign=top><a href="/iGenomics/publications.shtml">Publications</a></td> </tr>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+</table>
+

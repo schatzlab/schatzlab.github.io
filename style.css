@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.navbar			{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: 111111; font-weight: bold;	line-height: 30px;	background-color: 6791A5;}
+.navbar a		{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: 111111; font-weight: bold; text-decoration: none;}
+.navbar	a:hover	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: 4a4a4a; font-weight: bold; text-decoration: underline;}
+
+.intro			{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: 3d3d3d;}
+.intro a		{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #0E039E; font-weight:bold; text-decoration: none;}
+.intro a:hover	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #0E039E; font-weight:bold; text-decoration: underline;}
+
+.contenthead	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #0E039E; font-weight: bold; line-height: 26px;}
+.contentheadbig	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 24px; color: #0E039E; font-weight: bold; line-height: 34px;}
+
+.peopleheaders	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: 000000; font-weight: bold;}
+
+.peopleINFO	  {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: 333333;}
+.peopleINFO a {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: 333333;}
+.peopleINFO	a:hover {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: 333333; text-decoration: underline;}
+
+.funding			{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: 000000;}
+.funding a			{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: 000000; font-weight:bold; text-decoration: none;}
+.funding a:hover	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: 000000; font-weight:bold; text-decoration: underline;}
+
+.fundingHEAD			{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: 000000; font-weight:bold;}
+
+.footer  {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: ffffff; font-weight:bold;}
+
+.pubs			{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: 333333;}
+.pubs a		{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #666666; font-weight:bold; text-decoration: none;}
+.pubs a:hover	{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight:bold; text-decoration: underline;}

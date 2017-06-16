@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>Schatz Laboratory - Positions</title> 
+
+<!--#include virtual="/template/header.shtml" -->
+
+<span class="contenthead">Applying to the Schatzlab</span><br><hr>
+
+The Schatzlab is a highly interactive research group known for outstanding
+research in computational biology. We are developing the computational models
+and systems needed for understanding the causes of diseases, for developing
+better foods and biofuels, and for unlocking the secrets of the processes of
+life. This work depends on having a team of highly motivated postdocs, graduate
+students, and bioinformatics engineers to explore all the different facets of
+these challenges. We will work together to establish and execute a premier
+research program in computational biology through the entire research life
+cycle: selecting research topics, establishing milestones, developing software
+and methods, analyzing data, writing papers &amp; presenting your work. As you
+mature in the lab, you will be expected to take on more independence &amp;
+responsibility so that you will be well prepared for your entire career path.
+
+
+<br><br><br>
+
+
+<span class="contenthead">Computational Post-Doctoral Researchers</span><br><hr>
+
+Applications are invited for a 2-3 year computational postdoctoral research
+position in the Schatz laboratory of Quantitative Biology at Cold Spring Harbor
+Laboratory.  The researcher will develop novel methods for large-scale DNA and
+RNA sequence analysis related to human and/or plant genetics, such as developing
+methods for discovering de novo mutations related to autism, or for assembling
+and analyzing large complex plant genomes.
+
+<br><br>
+
+Ideal applicants will have:
+
+<br>
+
+<ul>
+  <li>A Ph.D. degree in Computer Science, Applied Mathematics, or related fields with a dissertation related to Computational Biology.</li>
+  <li>Strong programming and analytical skills, including experience with next-generation sequencing data.</li>
+  <li>Published at least two first author papers in English and demonstrated written communication skills in English.</li>
+</ul>
+
+<br>
+
+<table align=center bgcolor="EEEEEE" border=1 cellpadding=8>
+<tr><td align=center>
+<p class="intro">To apply, please email me a letter of interest and current CV at mschatz @ cshl.edu </p>
+</td></tr>
+</table>
+
+<br><br>
+
+
+<span class="contenthead">Graduate Students</span><br><hr>
+
+Graduate students interested in computational biology are encouraged to apply to
+the <a href="http://www.cshl.edu/gradschool">Watson School of Biological
+Sciences</a> at Cold Spring Harbor Laboratory. This innovative 4-year program is
+especially designed for highly focused students with a strong research background
+looking for total immersion into research during their PhD program. The curriculum
+is extremely focused with just a single semester of fulltime coursework, followed by an
+applied laboratory rotation program, and in-depth thesis research.
+
+<br><br>
+
+In addition, the Schatzlab includes several students from neighboring 
+<a href="http://www.stonybrook.edu">Stony Brook University</a>, in the 
+<a href="http://www.cs.sunysb.edu">Computer Science</a>, 
+<a href="http://www.stonybrook.edu/biochem/mcb/">Molecular and Cellular Biology</a>, 
+and <a href="http://life.bio.sunysb.edu/gen/">Genetics</a> programs.
+Stony Brook University is a flagship science and engineering campus of the
+State University of New York system, overing extensive courses and research
+opportunities across the physical sciences.
+
+<br><br>
+
+All graduate students must have strong programming and analytical skills, along
+with excellent communication abilities. New students will be expected to
+complete a semester long rotation during which they will complete a publishable
+project. Stony Brook students are encouraged to enroll in the 
+<a href="http://www.cs.sunysb.edu/~skiena/549/">Introduction to Computational Biology</a>
+course, during which you can learn the fundamental of computational biology, and
+begin your rotation project.
+
+
+<br><br><br>
+
+<span class="contenthead">Undergraduate Students</span><br><hr>
+
+Undergraduate students are encouraged to apply to the NSF-sponsored 
+<a href="http://www.cshl.edu/education/urp">Undergraduate Research Program</a>, a 10 week 
+paid summer research experience in Bioinformatics, Genetics & Genomics, Cellular and Molecular
+Biology, Plant Biology, Neuroscience, and Cancer Biology. Approximately 25 students a year
+are selected from around the world to work side-by-side with CSHL Investigators and
+gain hands-on experience. In the past few years, my students have developed novel 
+computational and mathematical methods for analyzing, plant, animal, and human genomes, several
+of which have lead to significant publications.
+
+<br><br><br>
+
+
+<span class="contenthead">Facilities</span><br><hr>
+
+The Schatzlab is housed in the Koch Building on the hillside campus of Cold
+Spring Harbor Laboratory, just minutes from downtown Huntington, and 30 miles
+east of Manhattan on the north shore of Long Island. The Koch Building is home
+to CSHL's new Center for Quantitative Biology, where an interdisciplinary team
+of mathematicians, physicists, statisticians, and computer scientists develop
+analytical approaches to interpret and understand large and complex data sets
+generated from experimental models as well as patient studies. In addition to
+collaborating with other members of the Quantitative Biology Center, Schatzlab
+members collaborate extensively with the other researchers on campus, and at
+nearby universities and hospitals.
+
+<br> <br>
+
+Schatzlab members have access to considerable computational resources, including
+the 2000-core CSHL shared cluster "BlueHelix", >1PB of shared storage, high-memory
+servers with 512GB of RAM, a dedicated 96-core Hadoop cluster, and high-end GPUs for 
+software development and data analysis. The computational development works
+side-by-side with the experimentalist on campus to probe deeply into a variety of
+biological systems and diseases. As such, lab members also have direct access
+to the CSHL Genome Sequencing Center, which currently has more than 20 high-throughput
+sequencers, including 9 Illumina HiSeq 2000 instruments, 2 PacBio RS instruments, 
+and several others including GA2x, MiSeq, and by Ion Torrent.
+
+<br> <br>
+
+<p align=center>
+<a href="http://www.cshl.edu"><img width=700 height=400 src="/images/cshl.jpg"></a><br>
+<a href="http://www.cshl.edu">CSHL Hillside Campus</a><br>
+
+<br><br>
+
+<a href="http://goo.gl/maps/8jp0"><img width=700 height=400 src="googlemap.png"></a><br>
+<a href="http://goo.gl/maps/8jp0">Map to CSHL</a>
+
+<br><br>
+
+<a href="CSHL Campus Map.pdf"><img width=700 height=400 src="cshlmap.png" border=1></a><br>
+<a href="CSHL Campus Map.pdf">Campus Map</a>
+
+</p>
+
+<br>
+
+<!--#include virtual="/template/footer.shtml" -->
+

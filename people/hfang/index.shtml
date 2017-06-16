@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Han Fang</title>
+
+<!--#include virtual="/template/header.shtml" -->
+<!--<span class="contenthead">Han Fang</span><br><hr>-->
+
+<table class="intro">
+
+<tr> <td width="544" valign="top">
+
+<span class="contenthead">Han Fang</span><br><hr>
+Han Fang received his M.S. in Applied Math & Statistics at <a href="http://www.stonybrook.edu/">Stony Brook University</a> (SBU) and received his B.S. in Optical Informatics at Sun Yat-sen University, China. He is currently a <b>PhD student</b> in Applied Math & Statistics at SBU, supervised by <a href="http://schatzlab.cshl.edu/">Dr. Michael Schatz</a> and <a href="http://lyonlab.labsites.cshl.edu/">Dr. Gholson Lyon</a> at Cold Spring Harbor Laboratory (<a href="http://www.cshl.edu/">CSHL</a>). His research interests intersect at machine learning, statistics, and genomics, with the goal of understanding underlying patterns of complex data.
+
+<br><br>
+Please check out my <a href="http://hanfang.github.io">Homepage page</a> and <a href="http://hanfang.github.io/pdf/HanFang.pdf">CV</a> for more details.<br>
+
+<td width="230" valign="top" align=center>
+
+<br>
+
+<img src="hfang.png" width="175" height="220" border="2"> 
+
+<br><br>
+
+<table class="intro"> <tr> <td align="left">
+
+<b>Han Fang</b><br>
+Cold Spring Harbor Laboratory<br>
+One Bungtown Road<br>
+Koch Building 1123<br>
+Cold Spring Harbor, NY 11724<br><br>
+
+E-mail: hanfang.cshl &lt;at&gt; gmail.com <br>
+
+<br>
+<a href="https://www.linkedin.com/pub/han-fang/37/334/451">
+<img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x25.gif" width="160" height="25" border="0" alt="View Han Fang's profile on LinkedIn">
+</a>
+
+</td> </tr> </table>
+
+<!--#include virtual="/template/footer.shtml" -->

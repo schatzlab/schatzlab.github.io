@@ -1,0 +1,256 @@
+<html>
+<head>
+<title>Fritz Sedlazeck</title>
+
+<link rel="stylesheet" href="/template/index.css">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2959149-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body bgcolor="#b6b3b3" link="660066" vlink="660066" alink="660066">
+
+<table border=0 width="800" align=center cellpadding=0 cellspacing=0">
+<tr height=20> <td> <a style="text-decoration:none" href="http://www.cshl.edu"><div align="right" class="footer">Cold Spring Harbor Laboratory</div></a> </td>
+
+<tr><td>
+
+<table style="border:1px solid black;" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr><td height=100 bgcolor="#024769"><a href="/"><img src="/images/header.png" width=100% height=120 border=0></a> </td></tr>
+
+<tr><td height="1px" bgcolor="#000000"></td></tr>
+
+<tr>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<td style="border:1px solid #333333;" width="20%"><div align="center" class="navbar"><a href="/research/">research</a></div></td>
+<td style="border:1px solid #333333;" width="20%"><div align="center" class="navbar"><a href="/teaching/">teaching</a></div></td>
+<td style="border:1px solid #333333;" width="20%"><div align="center" class="navbar"><a href="/publications/">publications</a></div></td>
+<td style="border:1px solid #333333;" width="20%"><div align="center" class="navbar"><a href="/people/">people</a></div></td>
+<td style="border:1px solid #333333;" width="20%"><div align="center" class="navbar"><a href="/apply/">apply</a></div></td>
+</table>
+</tr>
+
+<tr><td height="1px" bgcolor="#000000"></td></tr>
+
+<tr><td bgcolor="#FFFFFF">
+<table width="98%" height="25" border="0" align="center" cellpadding="0" cellspacing="5" class="intro">
+<tr> <td> <br>
+
+<!-- header -->
+
+
+<!--<span class="contenthead">Shoshana Marcus</span><br><hr>-->
+
+<table class="intro">
+
+<tr> <td width="544" valign="top">
+
+
+ <h2>Research Interests:</h2>
+
+In general, my interests focus on three key areas:
+<ul>
+<li>Sequence Analysis: <BR>
+<UL>
+       Method development to analyze Next Generation Sequencing (NGS) data<BR>
+       Detection of Structural Variations<BR>
+       Assessment of the variability of genomes  <BR>
+</UL>
+<li>High performance computing: <BR>
+<UL>
+      Programming on GPU Graphics Cards (CUDA, OpenCL)<BR>
+      Programming on CPUs (SSE, AVX)<BR>
+      Programming on Grid Engine (SGE, Slurm) <BR>
+ </UL>
+    </ul>
+
+    <hr>
+    <h2>Short Vita:</h2>
+Please check out my <a href="SedlazeckCV.pdf">CV</a> for more details.<br>
+
+    <h3>Professional Experience:</h3>
+    <ul>
+	   <li> December 2014 - present : 	Computational Sci. Analyst I at the  Schatz Lab, Cold Spring Harbor Laboratories (CSHL)	
+		
+      <li> December 2012 - December 2014 : Post Doc at the Center for Integrative Bioinformatics Vienna (CIBIV)
+
+      <li> September 2008 - December 2012: PhD at the Center for Integrative Bioinformatics Vienna (CIBIV)
+
+      <li>September 2007 - June 2008: EMBL Heidelberg, Frangakis Group
+    </ul>
+    
+    <h3>Education:</h3>
+    <ul>
+      <li>2012: Dr. rer. nat. Bioinformatics
+      <li>2008: Diplom (FH) Bioinformatics
+      <li>2003: Abitur
+    </ul>
+
+
+    <h3>Degree:</h3>
+    <UL>
+	  <li>'Ph.D' in Molecular Biology (Dr. rer. nat.), Vienna, Austria, 2012<BR>
+             Thesis: Benchtop sequencing on benchtop computers.
+	    
+         <li>DI (FH) (2008), Hagenberg<BR>
+             Thesis: Correlative Cryo-Fluorescence and cryo-Electron Microscopy.
+    </UL>
+
+ <h3>Fellowships, Fundings, and Awards:</h3>
+<UL>
+<li>Vienna Biocenter PhD Award (2013)
+<li>Leonardo da Vinci II Traineeship (2007)
+</UL>
+
+    <hr>
+
+<h3>Publications</h3>
+<UL>
+<B>2015</B>
+<UL>
+		<LI><B>R. Ming, R. VanBuren, C.M. Wai, H. Tang,	M.C. Schatz, J.E. Bowers, E. Lyons,	M. Wang, J. Chen, E. Biggers, J. Zhang, L. Huang, L. Zhang, W. Miao, J. Zhang, Z. Ye, C. Miao, Z. Lin,	H. Wang, H. Zhou, W.C. Yim, H.D. Priest,
+			C. Zheng, M. Woodhouse,	P.P. Edger, R. Guyot, H. Guo, H. Guo, G. Zheng, R. Singh, A. Sharma, X. Min,	Y. Zheng, H. Lee,	J. Gurtowski, <U>F.J. Sedlazeck</U>, A. Harkess, M.R. McKain, Z. Liao, J. Fang,	
+			J. Liu, X. Zhang, Q. Zhang,	W. Hu, Y. Qin, K. Wang, L. Chen,	N. Shirley,	Y. Lin,	L. Liu,	A.G. Hernandez, C.L. Wright, V. Bulone, G.A. Tuskan, K. Heath, F. Zee, P.H. Moore, R. Sunkar, J. H. Leebens-Mack,
+			T. Mockler,	J.L. Bennetzen,	M. Freeling, D. Sankoff, A.H. Paterson,	X. Zhu,	X. Yang, J.A.C. Smith, J.C. Cushman, R.E. Paull, Q. Yu</B> (2015)
+			The pineapple genome and the evolution of CAM photosynthesis. <EM>Nature Genetics.</EM> (<A HREF="http://dx.doi.org/10.1038/ng.3435">DOI: 10.1038/ng.3435</A>)
+		<LI><B>M. Smolka, P. Rescheneder, M. Schatz, A. von Haeseler, and <U>F.J. Sedlazeck</U></B> (2015)
+		Teaser: Individualized benchmarking and optimization of read mapping results for NGS data.
+                <EM>Genome Biol.</EM>, 16, 235.
+                (<A HREF="http://dx.doi.org/10.1186/s13059-015-0803-1">DOI: 10.1186/s13059-015-0803-1</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/26494581">PMID: 26494581</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pmc/PMC4618857">PMCID: PMC4618857</A>,
+                <A HREF="http://teaser.cibiv.univie.ac.at/">Teaser webpage</A>)
+        <LI><B>M. Tscherner, F. Zwolanek, S. Jenull, <U>F.J. Sedlazeck</U>, A. Petryshyn, I.E. Frohner, J. Mavrianos, N. Chauhan, A. von Haeseler, and K. Kuchler</B> (2015)
+		The <i>Candida albicans</i> Histone Acetyltransferase Hat1 Regulates Stress Resistance and Virulence via Distinct Chromatin Assembly Pathways.
+                <EM>PLoS Pathog.</EM>, 11, e1005218.
+                (<A HREF="http://dx.doi.org/10.1371/journal.ppat.1005218">DOI: 10.1371/journal.ppat.1005218</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/26473952">PMID: 26473952</A>)
+                
+		<LI><B>J. Cheng, <U>F. Sedlazek</U>, J. Altm&uuml;ller, and A. Nolte</B> (2015)
+		Ectodysplasin signalling genes and typic evolution in sculpins (Cottus).
+                <EM>Proc. R. Soc. B</EM>, 282, 20150746.
+                (<A HREF="http://dx.doi.org/10.1098/rspb.2015.0746">DOI: 10.1098/rspb.2015.0746</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/26354934">PMID: 26354934</A>)
+                
+                 <LI><B>M. Krunic<sup>e</sup>, R. Ertl<sup>e</sup>, B. Hagen, <U>F.J. Sedlazeck</U>, R. Hofmann-Lehmann, A. von Haeseler and D. Klein</B> (2015)
+		Decreased expression of endogenous feline leukemia virus in cat lymphomas: a case control study.
+                <EM>BMC Vet. Res.</EM>, 11, 90.
+                (<A HREF="http://dx.doi.org/10.1186/s12917-015-0378-9">DOI: 10.1186/s12917-015-0378-9</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/25879730">PMID: 25879730</A>)
+
+</UL>
+
+<B>2014</B>
+<UL>
+<LI><B>C. Vesely, S. Tauber, <U>F. Sedlazeck</U>, M. Tajaddod, A. von Haeseler, and M. Jantsch (2014)
+		ADAR2 induces reproducible changes in sequence and abundance of mature microRNAs in the mouse brain.
+                <EM>Nucleic Acids Res.</EM>, in press.
+                (<A HREF="http://dx.doi.org/10.1093/nar/gku844">DOI: 10.1093/nar/gku844</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/25260591">PMID: 25260591</A>)
+</UL>
+<B>2013</B>
+<UL>
+<LI> <p><B><U>F.J. Sedlazeck</U><sup>e</sup>, P. Rescheneder<sup>e</sup>, and A. von Haeseler</B> (2013)
+		NextGenMap: Fast and accurate read mapping in highly polymorphic genomes.
+                <EM>Bioinformatics</EM>, 29, 2790-2791.
+                (<A HREF="http://dx.doi.org/10.1093/bioinformatics/btt468">DOI: 10.1093/bioinformatics/btt468</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/23975764">PMID: 23975764</A>).</p>
+
+
+    <LI> <p><B>S. J&uuml;nemann, <U>F.J. Sedlazeck</U>, K. Prior, A. Albersmeier, U. John, J. Kalinowski, A. Mellmann, A. Goesmann, A. von Haeseler, J. Stoye and D. Harmsen</B> (2013)
+		Updating benchtop sequencing performance comparison. 
+		<EM>Nat. Biotechnol.</EM>, 31, 294-296.
+                (<A HREF="http://dx.doi.org/10.1038/nbt.2522">DOI: 10.1038/nbt.2522</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/23563421">PMID: 23563421</A>)</p>
+
+
+    <LI><B><U>F.J. Sedlazeck</U>, P. Talloji, A. von Haeseler, and A. Bachmair</B> (2013)
+		Benefit-of-doubt (BOD) scoring: a sequencing-based method for SNP candidate assessment from high to medium read number data sets.
+                <EM>Genomics</EM>, 101, 204-209.
+                (<A HREF="http://dx.doi.org/10.1016/j.ygeno.2012.12.001">DOI: 10.1016/j.ygeno.2012.12.001</A>,
+                <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/23246509">PMID: 23246509</A>)    
+</UL>
+<B>2012</B>
+<UL>
+    
+    <LI> <p><B>H.Q. Dinh, M. Dubin<sup>e</sup>, <U>F.J. Sedlazeck</U><sup>e</sup>, N. Lettner, O. Mittelsten Scheid, and A. von Haeseler</B> (2012)
+	Advanced Methylome Analysis after Bisulfite Deep Sequencing: an Example in Arabidopsis.
+	<EM>PLoS ONE</EM>, 7, e41528.
+	(<A HREF="http://dx.doi.org/10.1371/journal.pone.0041528">DOI: 10.1371/journal.pone.0041528</A>,
+	<A HREF="http://www.ncbi.nlm.nih.gov/pmc/PMC3401099">PMCID: PMC3401099</A>) </p>
+
+
+    <LI><p><B>P. Rescheneder, A. von Haeseler, and <U>F.J. Sedlazeck</U></B> (2012)
+	MASon: Million Alignments In Seconds - A Platform Independent Pairwise Sequence Alignment Library for Next Generation Sequencing Data.
+	<EM>Proceedings of the International Conference on Bioinformatics Models, Methods and Algorithms (BIOINFORMATICS 2012)</EM>, 195-201, SciTePress, Setubal, Portugal.
+	(<A HREF="http://dx.doi.org/10.5220/0003775701950201">DOI: 10.5220/0003775701950201</A>)</p>
+
+
+    <LI><B>C. Vesely<sup>e</sup>, S. Tauber<sup>e</sup>, <U>F.J. Sedlazeck</U>, A. von Haeseler, and M.F. Jantsch</B> (2012)
+      Adenosine deaminases that act on RNA induce reproducible changes in abundance and sequence of embryonic miRNAs.
+      <EM>Genome Res.</EM>, 22, 1468-1476.
+      (<A HREF="http://dx.doi.org/10.1101/gr.133025.111">DOI: 10.1101/gr.133025.111</A>,
+      <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/22310477">PMID: 22310477</A>)
+     
+</UL>
+
+<BR><B><sup>e</sup></B>&nbsp;contributed equally
+
+ <hr>
+
+<td width="230" valign="top" align=center>
+
+<br>
+
+ <img src="fritz.JPG" width="230" height="175" border="2"/>
+<!-- onmouseover="this.src='fritz_cartoon.jpg';"  onmouseout="this.src='fritz.JPG';" --!> 
+
+<br><br>
+
+<table class="intro"> <tr> <td align="left">
+
+<b>Fritz Sedlazeck, Ph.D.</b><br>
+Cold Spring Harbor Laboratory<br>
+One Bungtown Road<br>
+Koch Building 1121<br>
+Cold Spring Harbor, NY 11724<br><br>
+
+E-mail: fsedlaze &lt;at&gt; cshl.edu <br>
+Phone: (516) 367-8393<br>
+
+
+</td> </tr> </table>
+
+<!-- footer -->
+
+<br>
+
+
+
+</td></tr>
+</table>
+<tr> <td height="25" bgcolor="#024769" align=center>
+<div class="footer" align=center>Last Updated: Jan 9 2014  </div>
+</td></tr>
+</table>
+</td></tr>
+</table>
+
+
+
+</body>
+</html>
+
