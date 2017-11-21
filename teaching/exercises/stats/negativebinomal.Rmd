@@ -1,0 +1,31 @@
+---
+title: "Negative Binomial"
+author: '@mike_schatz'
+date: "11/21/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Negative Binomial Properties
+
+Notice the mode of the peak shifts to the left as the dispersion increases.
+
+```{r dnbinom}
+lambda=50
+x=seq(0,100)
+plot(x, x, ylim=c(0,.045), ylab="density")
+dispersions = c(1,2,4,8)
+for (dispersion in dispersions){
+  yi = dnbinom(x, mu=lambda, size=lambda/dispersion)
+  mode = which.max(yi)
+  lines(x, yi, col=dispersion)
+  abline(v=x[mode], col=dispersion)
+}
+
+legend(70,.04, paste("dispersion=", dispersions), fill=dispersions)
+
+```
+
