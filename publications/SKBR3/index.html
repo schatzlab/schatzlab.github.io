@@ -1,0 +1,79 @@
+---
+layout: default
+title: Schatzlab - SKBR3
+---
+
+
+<span class="contenthead">Complex rearrangements and oncogene amplifications revealed by long-read DNA and RNA sequencing of the SKBR3 breast cancer cell line</span><br>
+
+Maria Nattestad, Sara Goodwin, Karen Ng, Timour Baslan, Fritz J. Sedlazeck, Philipp Rescheneder, Tyler Garvin, Han Fang, James Gurtowski, Elizabeth Hutton, Elizabeth Tseng, Chen-Shan Chin, Timothy Beck, Yogi Sundaravadanam, Melissa Kramer, Eric Antoniou, John D. McPherson, James Hicks, William Richard McCombie, Michael C. Schatz <br><br>
+
+The SK-BR-3 cell line is one of the most important models for HER2+ breast cancers, which affect one in five breast cancer patients. SK-BR-3 is known to be highly rearranged although much of the variation is in complex and repetitive regions that may be underreported. Addressing this, we sequenced SK-BR-3 using long-read single molecule sequencing from Pacific Biosciences, and develop one of the most detailed maps of structural variations (SVs) in a cancer genome available with nearly 20,000 variants present, most of which were missed by prior efforts. Surrounding the important HER2 locus, we discover a complex sequence of nested duplications and translocations, suggesting a punctuated progression. Full-length transcriptome sequencing further revealed several novel gene fusions within the nested genomic variants. Combining long-read genome and transcriptome sequencing enables an in-depth analysis of how SVs disrupt the transcriptome and sheds new light on the complexity of cancer progression.
+
+<span class="contenthead">Analysis Manuscripts</span>
+
+<table class="intro" width=100%>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top><a href="http://www.biorxiv.org/content/early/2017/08/10/174938">Complex rearrangements and oncogene amplifications revealed by long-read DNA and RNA sequencing of a breast cancer cell line</a><br>
+  Nattestad et al. (2017) bioRxiv. doi: https://doi.org/10.1101/174938<td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top><a href="http://www.biorxiv.org/content/early/2017/07/28/169557">Accurate detection of complex structural variations using single molecule sequencing</a><br>
+  Sedlazeck, Rescheneder et al (2017) bioRxiv. doi: https://doi.org/10.1101/169557<td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top><a href="http://www.biorxiv.org/content/early/2016/11/15/087981"></a>SplitThreader: Exploration and analysis of rearrangements in cancer genomes<br>
+  Nattestad et al (2016) bioRxiv. doi: https://doi.org/10.1101/087981<td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top><a href="http://www.biorxiv.org/content/early/2016/10/20/082123">Ribbon: Visualizing complex genome alignments and structural variation</a><br>
+  Nattestad et al (2016) bioRxiv. doi: https://doi.org/10.1101/082123<td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top><a href=""></a><td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+</table>
+
+<br>
+
+
+<span class="contenthead">Reads, Assemblies, Alignments and Variant Calls</span>
+
+Raw PacBio and Illumina reads are available in the NCBI SRA under under BioProject <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA476239/">PRJNA476239</a><br>
+
+<b>PacBio-based Analysis</b>
+- Reads aligned with NGMLR: [reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam](http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/Sniffles/Skbr3/reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam)<br>
+
+- Variants discovered with Sniffles: [reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam.sniffles1kb_auto_l8_s5_noalt.vcf.gz](http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/Sniffles/Skbr3/reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam.sniffles1kb_auto_l8_s5_noalt.vcf.gz)
+
+- SplitThreader analysis of Copy number variants + long range Sniffles variants: [http://splitthreader.com](http://splitthreader.com/vis.php?code=example1&nickname=SK_BR_3_breast_cancer_cell_line____PacBio_sequencing)
+
+- Ribbon display of SKBR3 structural variations: [http://genomeribbon.com](http://genomeribbon.com/?perma=E_PacBio_SKBR3_TRA_chr16_to_chr19_(5MB))
+
+- FALCON assembly and error corrected reads: [Hosted at DNAnexus](https://www.dnanexus.com/falcon)
+
+
+<b>Illumina-based Analysis</b>
+- Illumina reads aligned with BWA-MEM: [SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam](http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/Sniffles/Skbr3/SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam)
+
+- Delly SVs: [SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.delly_noalt.vcf.gz](http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/Sniffles/Skbr3/SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.delly_noalt.vcf.gz)
+
+- Lumpy SVs: [SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.lumpy_noalt.vcf.gz](http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/Sniffles/Skbr3/SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.lumpy_noalt.vcf.gz)
+
+- Manta SVs: [SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.manta_noalt.vcf.gz](http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/Sniffles/Skbr3/SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.manta_noalt.vcf.gz)
+
+- SURVIVOR consensus SVs: [SURVIVOR_1k_min2_min50bp.vcf.gz](http://labshare.cshl.edu/shares/schatzlab/www-data/fsedlaze/Sniffles/Skbr3/SURVIVOR_1k_min2_min50bp.vcf.gz)
+
+
+
