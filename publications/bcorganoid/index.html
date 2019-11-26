@@ -1,0 +1,102 @@
+---
+layout: default
+title: Schatzlab - Breast Cancer Organoid
+---
+
+<span class="contenthead">Comprehensive analysis of structural variants in breast cancer genomes using single molecule sequencing</span><br>
+<hr>
+
+Sergey Aganezov, Sara Goodwin, Rachel Sherman, Fritz J. Sedlazeck, Gayatri Arun, Sonam Bhatia, Isac Lee, Melanie Kirsche, Robert Wappel, Melissa Kramer, Karen Kostroff, David L. Spector, Winston Timp, W. Richard McCombie, Michael C. Schatz
+<table class="intro">
+<tr>
+<td valign=top>
+Improved identification of structural variants (SVs) in cancer can lead to more targeted and effective treatment options as well as advance our basic understanding of disease progression. We performed whole genome sequencing of the SKBR3 breast cancer cell-line and patient-derived tumor and normal organoids from two breast cancer patients using 10X/Illumina, PacBio, and Oxford Nanopore sequencing. We then inferred SVs and large-scale allele-specific copy number variants (CNVs) using an ensemble of methods. Our findings demonstrate that long-read sequencing allows for substantially more accurate and sensitive SV detection, with between 90% and 95% of variants supported by each long-read technology also supported by the other. We also report high accuracy for long-reads even at relatively low coverage (25x-30x). Furthermore, we inferred karyotypes from these data using our enhanced RCK algorithm to present a more accurate representation of the mutated cancer genomes, and find hundreds of variants affecting known cancer-related genes detectable only through long-read sequencing. These findings highlight the need for long-read sequencing of cancer genomes for the precise analysis of their genetic instability.</td>
+<td width=150 valign="top">
+<img src="skbr3.png" width=150>
+</td></tr></table>
+  
+  
+<br><br><br>
+
+<span class="contenthead">Analysis Manuscripts</span> <br>
+
+<table class="intro" width=100%>
+  
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top><a href="https://www.biorxiv.org/content/10.1101/847855v1">Comprehensive analysis of structural variants in breast cancer genomes using single molecule sequencing</a><br>
+  Aganezov et al. (2019) bioRxiv. doi: https://doi.org/10.1101/847855<td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top><a href="https://www.biorxiv.org/content/10.1101/560839v1">Reconstruction of clone- and haplotype-specific cancer genome karyotypes from bulk tumor samples</a><br>
+  Aganezov et al. (2019) bioRxiv. doi: https://doi.org/10.1101/560839<td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+</table>
+
+<br>
+
+<span class="contenthead">Raw Reads</span> <br>
+<table class="intro" width=100%>
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top>Raw PacBio and Illumina reads are available in the NCBI SRA under under BioProject <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA476239/">PRJNA476239</a></td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+</table>
+
+<br>
+
+<span class="contenthead">PacBio-based Analysis</span> <br>
+<table class="intro" width=100%>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top>Reads aligned with NGMLR:<br>
+  <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam">reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam</a></td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top>Variants discovered with Sniffles:<br>
+  <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam.sniffles1kb_auto_l8_s5_noalt.vcf.gz">reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam.sniffles1kb_auto_l8_s5_noalt.vcf.gz</a></td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+</table>  
+
+<br>
+
+<span class="contenthead">Illumina-based Analysis</span> <br>
+<table class="intro" width=100%>
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top>Illumina PE550 reads aligned with BWA-MEM:<br>
+    <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam">SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam</a><td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top>Delly SVs:<br>
+    <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.delly_noalt.vcf.gz">SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.delly_noalt.vcf.gz</a><td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top>Lumpy SVs:<br>
+    <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.lumpy_noalt.vcf.gz">SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.lumpy_noalt.vcf.gz</a><td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top>Manta SVs:<br>
+    <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.manta_noalt.vcf.gz">SKBR3_550bp_pcrFREE_S1_L001_AND_L002_R1_001.101bp.bwamem.ill.mapped.sort.bam.manta_noalt.vcf.gz</a><td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+  
+<tr>
+  <td valign=top width=10>&raquo;</td>
+  <td valign=top>SURVIVOR consensus SVs:<br>
+    <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/SURVIVOR_1k_min2_min50bp.vcf.gz">SURVIVOR_1k_min2_min50bp.vcf.gz</a><td>
+</tr> <tr><td height=8 colspan=2></td></tr>
+    
+</table>
