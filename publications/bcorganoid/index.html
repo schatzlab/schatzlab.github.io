@@ -26,14 +26,14 @@ Improved identification of structural variants (SVs) in cancer can lead to more 
   
 <tr>
   <td valign=top width=10>&raquo;</td>
-  <td valign=top><a href="https://www.biorxiv.org/content/10.1101/847855v1">Comprehensive analysis of structural variants in breast cancer genomes using single molecule sequencing</a><br>
-  Aganezov et al. (2019) bioRxiv. doi: https://doi.org/10.1101/847855<td>
+  <td valign=top><a href="https://genome.cshlp.org/content/early/2020/09/02/gr.260497.119">Comprehensive analysis of structural variants in breast cancer genomes using single molecule sequencing</a><br>
+  Aganezov et al. (2020) Genome Research. doi: 10.1101/gr.260497.119<td>
 </tr> <tr><td height=8 colspan=2></td></tr>
 
 <tr>
   <td valign=top width=10>&raquo;</td>
-  <td valign=top><a href="https://www.biorxiv.org/content/10.1101/560839v1">Reconstruction of clone- and haplotype-specific cancer genome karyotypes from bulk tumor samples</a><br>
-  Aganezov et al. (2019) bioRxiv. doi: https://doi.org/10.1101/560839<td>
+  <td valign=top><a href="https://genome.cshlp.org/content/30/9/1274">Reconstruction of clone- and haplotype-specific cancer genome karyotypes from bulk tumor samples</a><br>
+  Aganezov et al. (2020) Genome Research. doi: 10.1101/gr.256701.119<td>
 </tr> <tr><td height=8 colspan=2></td></tr>
 
 </table>
@@ -42,7 +42,7 @@ Improved identification of structural variants (SVs) in cancer can lead to more 
 
 <span class="contenthead">Method Availability</span> <br>
 
-The SV inference and comparison workflow is implemented with Snakemake v5.5.4 and is available at <a href="http://github.com/aganezov/EnsembleSV">github.com/aganezov/EnsembleSV</a><br>
+The SV inference and comparison workflow is implemented with Snakemake v5.5.4 and is available at <a href="http://github.com/aganezov/EnsembleSV">github.com/aganezov/EnsembleSV</a>.
 RCK v1.1 utilized for cancer genome karyotype inference is available at <a href="http://github.com/aganezov/EnsembleSV">github.com/aganezov/RCK</a><br>
 
 <br>
@@ -62,38 +62,32 @@ Patient data are available within dbGaP under accession phs038843.v1<br><br>
 
 <span class="contenthead">SKBR3 PacBio-based Analysis</span> <br>
 <table class="intro" width=100%>
-<tr> <td valign=top>PacBio reads aligned with NGMLR:</td> <td><a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam">reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam</a></td> </tr>
-<tr> <td valign=top>PacBio pbsv VCF:</td>                 <td><a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_PACBIO_pbsv.vcf">SKBR3_PACBIO_pbsv.vcf</a></td></tr>
-<tr> <td valign=top>PacBio Sniffles VCF:</td>             <td><a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_PACBIO_sniffles.vcf">SKBR3_PACBIO_sniffles.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>PacBio reads aligned with NGMLR:</td> <td><a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam">reads_lr_skbr3.fa_ngmlr-0.2.3_mapped.bam</a></td> </tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>PacBio pbsv VCF:</td>                 <td><a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_PACBIO_pbsv.vcf">SKBR3_PACBIO_pbsv.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>PacBio Sniffles VCF:</td>             <td><a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_PACBIO_sniffles.vcf">SKBR3_PACBIO_sniffles.vcf</a></td></tr>
 </table>  
 
 <br>
 
 <span class="contenthead">SKBR3 Oxford Nanopore-based Analysis</span> <br>
 <table class="intro" width=100%>
-<tr>
-  <td valign=top width=10>&raquo;</td>
-  <td valign=top>Oxford Nanopore reads aligned with NGMLR:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/skbr3.ont.sort.bam">skbr3.ont.sort.bam</a><td>
-  <td valign=top>ONT pbsv VCF:<br>     <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_ONT_pbsv.vcf">SKBR3_ONT_pbsv.vcf</a><td>
-  <td valign=top>ONT Sniffles VCF:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_ONT_sniffles.vcf">SKBR3_ONT_sniffles.vcf</a><td>
-</tr> <tr><td height=8 colspan=2></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>ONT reads aligned with NGMLR:</td> <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/skbr3.ont.sort.bam">skbr3.ont.sort.bam</a><td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>ONT pbsv VCF:</td>                 <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_ONT_pbsv.vcf">SKBR3_ONT_pbsv.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>ONT Sniffles VCF:</td>             <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_ONT_sniffles.vcf">SKBR3_ONT_sniffles.vcf</a></td></tr>
 </table>
 
 <br>
 
 <span class="contenthead">SKBR3 10X Genomics-based Analysis</span> <br>
 <table class="intro" width=100%>
-<tr>
-  <td valign=top width=10>&raquo;</td>
-  <td valign=top>10X Genomics Linked Reads aligned with LongRanger:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/skbr3.10x.sort.bam">skbr3.10x.sort.bam</a><td>
-  <td valign=top>10X GrocSV VCF:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_grocsvs.vcf">SKBR3_10x_grocsvs.vcf</a><td>
-  <td valign=top>10X SVABA Indel VCF:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_indel_svaba.vcf">SKBR3_10x_indel_svaba.vcf</a><td>
-  <td valign=top>10X SVABA SVs VCF:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_sv_svaba.vcf">SKBR3_10x_sv_svaba.vcf</a><td>
-  <td valign=top>10X LongRanger Dels VCF:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_longranger_dels.vcf">SKBR3_10x_longranger_dels.vcf</a><td>
-  <td valign=top>10X LongRanger Large SVs VCF:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_longranger_large_svs.vcf">SKBR3_10x_longranger_large_svs.vcf</a><td>
-  <td valign=top>10X Lumpy SVs VCF:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_lumpy.vcf">SKBR3_10x_lumpy.vcf</a><td>
-  <td valign=top>10X Manta SVs VCF:<br> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_manta.vcf">SKBR3_10x_manta.vcf</a><td>
-</tr> <tr><td height=8 colspan=2></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>10X reads aligned with LongRanger:</td> <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/skbr3.10x.sort.bam">skbr3.10x.sort.bam</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>10X GrocSV VCF:</td>                    <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_grocsvs.vcf">SKBR3_10x_grocsvs.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>10X SVABA Indel VCF:</td>               <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_indel_svaba.vcf">SKBR3_10x_indel_svaba.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>10X SVABA SVs VCF:</td>                 <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_sv_svaba.vcf">SKBR3_10x_sv_svaba.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>10X LongRanger Dels VCF:</td>           <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_longranger_dels.vcf">SKBR3_10x_longranger_dels.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>10X LongRanger Large SVs VCF:</td>      <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_longranger_large_svs.vcf">SKBR3_10x_longranger_large_svs.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>10X Lumpy SVs VCF:</td>                 <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_lumpy.vcf">SKBR3_10x_lumpy.vcf</a></td></tr>
+<tr> <td valign=top width=10>&raquo;</td> <td valign=top>10X Manta SVs VCF:</td>                 <td> <a href="http://labshare.cshl.edu/shares/schatzlab/www-data/skbr3/bcorganoid/SKBR3_10x_manta.vcf">SKBR3_10x_manta.vcf</a></td></tr>
 </table>
 
 <br>
