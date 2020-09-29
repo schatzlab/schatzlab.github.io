@@ -36,92 +36,92 @@ Select the reference genome, DNA sequences (reads), and an optional important mu
 <br><br><br>
 
 <img border=1 src="select_data_options.jpeg" height=500><br><br>
-<b>2. Choose data source</b> <br>
+<b>3. Choose data source</b> <br>
 Import new files from dropbox, browse files you've already imported to iGenomics, or choose a simulated file. For this example, we choose a simulated file<br>
 
 <br><br><br>
 
 <img border=1 src="select_data_ref.jpeg" height=500><br><br>
-<b>2. Select the reference genome.</b> <br>
+<b>4. Select the reference genome.</b> <br>
 In this example, pick the H1N1 flu reference genome. You can load your own reference genome from Dropbox by selected the left arrow at the top (next to "Search reference files"). For best performance, we recommend genome files less than 1Mbp.<br>
 
 <br><br><br>
 
 <img border=1 src="select_data_reads.jpeg" height=500><br><br>
-<b>3. Select the DNA sequences (reads) to analyze.</b><br>
+<b>5. Select the DNA sequences (reads) to analyze.</b><br>
 This can be a fastq file from any platform (Illumina, Ion Torrent, PacBio, Oxford Nanopore, etc). Here we will select simulated reads from the H1N1 flu strain. Again click the left arrow at the top to load your own data from Dropbox. For best performance we recommend aligning at most 50Mbp of sequence data. <br><br>
 
 <br><br><br>
 
 <img border=1 src="select_data_muts.jpeg" height=500><br><br>
-<b>4. Optionally select the known important mutations.</b><br>
+<b>6. Optionally select the known important mutations.</b><br>
 In this example, we will load an important mutations file (mpl) containing the position of several SNPs relevant for flu antiviral treatments. If you do not have a predefined list of mutations, click next without selecting any files. <br><br>
 
 <br><br><br>
 
 <img border=1 src="select_data_filled.jpeg" height=500><br><br>
-<b>4. Finish selecting data.</b><br>
+<b>7. Finish selecting data.</b><br>
 At this point, if you've been following the example, your data selection page should look like the above. Next, press 'Configure' <br><br>
 
 <br><br><br>
 
 
 <img border=1 src="select_params.jpeg" height=500><br><br>
-<b>5. Select the parameters for mapping the reads.</b><br> 
+<b>8. Select the parameters for mapping the reads.</b><br> 
 For these data, choose a max error rate of 0.25 and enable trimming with a value of 10, and trimming ref char as "!". This will trim off low quality bases at the ends of the read (below QV 10), and map the reads with 0.25 being the max allowed fraction of mutations (insertions/deletions/substitutions) relative to read length for an alignment to occur  <br><br>
 
 <br><br><br>
 
 <img border=1 src="loading.PNG" height=500><br><br>
-<b>6. The progress bar will show the fractions of reads that have been aligned.</b><br>
+<b>9. The progress bar will show the fractions of reads that have been aligned.</b><br>
 In this example, it will take 1 or 2 seconds to align the 5428 flu reads to the reference. <br><br>
 
 <br><br><br>
 
 <img border=1 src="summary.jpeg" width=500><br><br>
-<b>7. The next view is a menu of available analysis modes.</b><br>
+<b>10. The next view is a menu of available analysis modes.</b><br>
 Click the "Alignments" button to display the individual read alignments. <br><br>
 
 <br><br><br>
 
 <img border=1 src="alignmentview.png"><br><br>
-<b>8. Alignment view</b><br>
+<b>11. Alignment view</b><br>
 This will display an IGV-like interface with the individual reads aligned the reference. Use the slider at the bottom or drag your finger to explore. <br><br>
 
 <br><br><br>
 
 <img border=1 src="alignmentoverview.png"><br><br>
-<b>9. Semantic zooming</b><br>
+<b>12. Semantic zooming</b><br>
 Pinching the display will zoom out to show the coverage across the genome and highlight any positions with a mutation. Since we have good coverage across the H1N1 flu reference genome, we can be quite sure this person was infected by the flu. <br><br>
 
 <br><br><br>
 
 <img border=1 src="summary.jpeg" width=500><br><br>
-<b>10. Return to the summary screen</b><br>
+<b>13. Return to the summary screen</b><br>
 Clicking the icon in the top left corner (three little horizontal bars) will return to the summary menu. <br><br>
 
 <br><br><br>
 
 <img border=1 src="summary_utilities.jpeg" width=500><br><br>
-<b>11. Display Mapping Statistics</b><br>
+<b>14. Display Mapping Statistics</b><br>
 Swipe to the right to display the other menus. Here we see a summary of the mapping rate (100% of the reads mapped) and the number of identified mutatations (122 SNPs). Use the mutation coverage control to set the fraction of conflicting reads needed to identify a mutation. <br><br>
 
 <br><br><br>
 
 <img border=1 src="summary_segments.jpeg" width=500><br><br>
-<b>12. Display the Sequence Picker</b><br>
+<b>15. Display the Sequence Picker</b><br>
 Swipe again to the right to bring up the "sequence picker" which lets you jump to different sequences in the reference genome. In this example, this will jump the display to the different segments of the flu genome. <br><br>
 
 <br><br><br>
 
 <img border=1 src="summary_impt_muts.jpeg" width=500><br><br><br>
-<b>13. Display Mutation Status</b><br>
+<b>16. Display Mutation Status</b><br>
 Swipe again to the right to display the status of the important mutations (see above). In this example, the virus has a homozygous and a heterozygous mutation that infers resistance to the adamantanes, but no mutations associated with neuraminidase inhibitors!<br><br>
 
 <br><br><br>
 
 <img border=1 src="summary_export.jpeg" width=500><br><br>
-<b>14. Export results</b><br>
+<b>17. Export results</b><br>
 Click the icon in the top left to bring up a menu to export the results via email, Dropbox, or other apps (Airdrop, Google Drive, etc.) by pressing 'Share'. For example, you can email the antiviral screening results to your primary care provider!<br><br>
 
 <br><br><br>
